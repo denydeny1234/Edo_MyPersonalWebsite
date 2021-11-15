@@ -1,0 +1,164 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+hr{
+	border-top: 4px double #390234;
+	text-align: center;
+}
+
+hr:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: white;
+	color: #390234;
+	font-size: 18px;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-section {
+  background-color: #fff;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+
+/* Feature section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  margin: 50px;
+  color: #b6097d;
+}
+
+.icon:hover {
+  color: #390234;
+}
+
+
+
+/* Assignments section */
+
+#assignments {
+  background-color: #fff;
+  position: relative;
+}
+
+.assignments-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.assignments-image {
+  width: 80%;
+  height: 500px;
+  border-radius: 40%;
+  margin: 20px;
+}
+
+.arrows_carousel {
+  filter: invert(100%);
+}
+
+
+/* Descripiton section */
+#DescriptionAssignments {
+  position: relative;
+}
+
+#boxes {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 100px;
+}
+
+.divD {
+    float: right;
+        height: 200px;
+        width: 33%;
+        padding: 0 10px;
+}
+
+
+
+#footer {
+  position: relative;
+  color: white;
+  padding: 50px;
+}
